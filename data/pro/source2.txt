@@ -1,5 +1,0 @@
-AI regulation is essential for protecting democracy and preventing the concentration of power. Large AI models controlled by a handful of corporations give those companies unprecedented influence over information, economic opportunity, and social outcomes. Government regulation can prevent monopolistic behavior and ensure AI benefits are distributed fairly across society.
-
-Unregulated AI systems have already caused measurable harm. Facial recognition systems have led to wrongful arrests of innocent people. Algorithmic hiring tools have discriminated against women and minorities. Credit scoring AI has denied loans to qualified applicants based on biased training data. These are not hypothetical risks — they are documented failures that regulation could have prevented.
-
-National security also demands AI regulation. AI systems used in critical infrastructure, military applications, and intelligence gathering must be subject to government oversight to prevent foreign adversaries from exploiting vulnerabilities or manipulating these systems for hostile purposes.
