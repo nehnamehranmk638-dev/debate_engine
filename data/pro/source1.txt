@@ -1,0 +1,5 @@
+Artificial intelligence systems pose significant risks to society that require government oversight. Without regulation, AI companies prioritize profit over safety, leading to biased algorithms, privacy violations, and potential harm to vulnerable populations. Government regulation ensures accountability and establishes minimum safety standards that all AI developers must meet.
+
+The European Union's AI Act demonstrates that regulation is feasible and necessary. By categorizing AI systems by risk level and imposing strict requirements on high-risk applications like facial recognition and medical diagnosis, the EU has created a framework that protects citizens while still allowing innovation to flourish.
+
+Historical precedent supports regulation. Just as governments regulate pharmaceuticals, aviation, and financial systems to protect the public, AI regulation follows the same logic. We do not allow pharmaceutical companies to release untested drugs, so we should not allow AI companies to deploy untested systems that affect people's lives.
