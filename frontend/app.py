@@ -297,28 +297,6 @@ def main():
             help="More rounds = deeper debate + longer wait"
         )
 
-    # example topics
-    st.markdown("**💡 Try these topics:**")
-    example_cols = st.columns(3)
-    examples = [
-        "Universal basic income would benefit society",
-        "Nuclear energy is the solution to climate change",
-        "Remote work is better than office work",
-        "Space exploration should be a global priority",
-        "Cryptocurrencies should replace traditional banking",
-        "Zoos should be abolished"
-    ]
-    for i, example in enumerate(examples):
-        with example_cols[i % 3]:
-            if st.button(example, key=f"ex_{i}", use_container_width=True):
-                st.session_state["selected_topic"] = example
-                st.rerun()
-
-    # apply selected example topic
-    if "selected_topic" in st.session_state:
-        topic = st.session_state["selected_topic"]
-        del st.session_state["selected_topic"]
-
     st.divider()
 
     # debate button

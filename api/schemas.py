@@ -3,12 +3,12 @@ from typing import List
 
 class DebateRequest(BaseModel):
     topic: str = Field(
-        ...,
-        min_length=10,
-        max_length=300,
-        description="The debate topic or proposition",
-        example="Social media does more harm than good"
-    )
+    ...,
+    min_length=10,
+    max_length=300,
+    description="The debate topic or proposition",
+    json_schema_extra={"example": "Social media does more harm than good"}
+)
     num_rounds: int = Field(
         default=2,
         ge=1,
