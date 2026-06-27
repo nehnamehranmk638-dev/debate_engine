@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import time
+import os
 
 # ── page config ───────────────────────────────────────────────
 st.set_page_config(
@@ -10,7 +11,7 @@ st.set_page_config(
 )
 
 # ── backend URL ───────────────────────────────────────────────
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 # ── custom CSS ────────────────────────────────────────────────
 st.markdown("""
