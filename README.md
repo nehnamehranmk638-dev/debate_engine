@@ -204,7 +204,7 @@ Expected output:
 
 |             | Link                                                                       |
 | ----------- | -------------------------------------------------------------------------- |
-| Frontend    | [Streamlit App](https://your-streamlit-url.streamlit.app)                  |
+| Frontend    | [Streamlit App](https://debateengine-dqlst6gfxfvxytomrsfsnk.streamlit.app/)                  |
 | Backend API | [debate-engine-hgz1.onrender.com](https://debate-engine-hgz1.onrender.com) |
 | API Docs    | [/docs](https://debate-engine-hgz1.onrender.com/docs)                      |
 
