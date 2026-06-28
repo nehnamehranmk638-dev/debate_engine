@@ -4,17 +4,7 @@
 
 A multi-agent AI system where two LLM agents argue opposing sides of any topic, each grounded in real-time web evidence. A judge agent scores every argument for factual grounding and penalizes hallucinations.
 
-## 🌐 Live Demo
 
-|             | Link                                                                       |
-| ----------- | -------------------------------------------------------------------------- |
-| Frontend    | [Streamlit App](https://your-streamlit-url.streamlit.app)                  |
-| Backend API | [debate-engine-hgz1.onrender.com](https://debate-engine-hgz1.onrender.com) |
-| API Docs    | [/docs](https://debate-engine-hgz1.onrender.com/docs)                      |
-
-> **Note:** Backend may take 30–50 seconds on first request due to Render free tier cold start. Subsequent requests are fast.
-
----
 
 ## 🧠 What It Does
 
@@ -269,6 +259,18 @@ Expected output:
 * Add debate history storage with PostgreSQL
 * Add user authentication and saved debates
 * CI/CD pipeline with GitHub Actions
+
+---
+
+## 🌐 Live Demo
+
+|             | Link                                                                       |
+| ----------- | -------------------------------------------------------------------------- |
+| Frontend    | [Streamlit App](https://your-streamlit-url.streamlit.app)                  |
+| Backend API | [debate-engine-hgz1.onrender.com](https://debate-engine-hgz1.onrender.com) |
+| API Docs    | [/docs](https://debate-engine-hgz1.onrender.com/docs)                      |
+
+> **Note:** Backend may take 30–50 seconds on first request due to Render free tier cold start. Subsequent requests are fast.
 
 ---
 
