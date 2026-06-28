@@ -136,68 +136,6 @@ streamlit run frontend/app.py
 http://localhost:8501
 ```
 
----
-
-## 📡 API Reference
-
-### `POST /debate`
-
-Run a full debate on any topic.
-
-**Request:**
-
-```json
-{
-  "topic": "Social media does more harm than good",
-  "num_rounds": 2
-}
-```
-
-**Response:**
-
-```json
-{
-  "topic": "Social media does more harm than good",
-  "rounds": [
-    {
-      "round": 1,
-      "pro_argument": "...",
-      "against_argument": "...",
-      "pro_sources": ["source1", "source2"],
-      "against_sources": ["source1", "source2"],
-      "pro_score": {
-        "factual_grounding": 7,
-        "logical_coherence": 8,
-        "responsiveness": 9,
-        "hallucination_penalty": 0,
-        "total": 24,
-        "reasoning": "..."
-      },
-      "against_score": { ... }
-    }
-  ],
-  "verdict": {
-    "winner": "PRO",
-    "winner_reason": "PRO side presented better grounded arguments",
-    "pro_total": 24,
-    "against_total": 19,
-    "margin": 5,
-    "rounds_played": 1
-  },
-  "response_time_seconds": 30.86
-}
-```
-
-### `GET /health`
-
-Returns server status.
-
-### `GET /docs`
-
-Interactive API documentation (Swagger UI).
-
----
-
 ## 🗂️ Project Structure
 
 ```
